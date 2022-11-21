@@ -1,0 +1,74 @@
+body {
+    overflow-x: hidden;
+}
+
+#pesquisa {
+    display: flex;
+}
+#container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#container iframe {
+    box-shadow: 1px 1px 5px black;
+}
+
+#line {
+    height: 1px;
+    background: linear-gradient(90deg, rgba(0,0,0,0), rgb(44, 44, 44), rgba(0,0,0,0));
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#googleLogo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#imgArea {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#googleImg {
+    width: 35%;
+    height: 200px;
+    margin: 10px;
+    box-shadow: 1px 1px 5px black;
+    transition: .3s;
+}
+#googleImg:hover {
+    transform: scale(1.2);
+}
+
+#cardArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#workWithUs {
+    width: 70%; height: 70%;
+    background-color: black;
+    margin-bottom: 40px;
+}
+#workWithUs img {
+    height: 50%;
+}
+
+#contato {
+    width: 100vw; height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contato form {
+    display: flex;
+    flex-direction: column;
+}
+#contato form input {
+    margin: 10px;
+}
